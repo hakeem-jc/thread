@@ -1,4 +1,5 @@
 @import 'normalize.css';
+@import 'variables';
 
 * {
   box-sizing: border-box;
@@ -12,5 +13,5 @@ html, body {
 }
 
 body {
-  background-color: #121212;
+  background-color: $primary-color;
 }
