@@ -1,0 +1,29 @@
+.post {
+    display: flex;
+    padding-left: 0.1rem;
+}
+
+.image_container {
+    padding: 0 1rem; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.divider {
+    width: 1px;
+    height: 100%;
+    background-color: #505050;
+}
+
+.user_image {
+    width: 3rem;
+    height: auto;
+    border-radius: 100%;
+    margin-bottom: 1rem;
+}
+
+.verified {
+    width: 1rem;
+    height: auto;
+}
