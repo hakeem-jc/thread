@@ -1,6 +1,6 @@
 .post {
     display: flex;
-    padding-left: 0.1rem;
+    padding: 0 0.5rem;
 }
 
 .image_container {
@@ -26,4 +26,32 @@
 .verified {
     width: 1rem;
     height: auto;
+}
+
+.header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    
+    .header_data {
+        display: flex;
+        width: 15%;
+        justify-content: space-between;
+        height: 1rem;
+    }
+
+    .time_posted {
+        color: rgb(99, 99, 99);
+        font-size: 0.6rem;
+        line-height: 1rem;
+    }
+
+    .menu {
+        line-height: 0.5rem;
+    }
+}
+
+.text {
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
 }

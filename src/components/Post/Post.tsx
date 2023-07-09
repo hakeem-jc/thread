@@ -14,8 +14,10 @@ const Post:FC = () => {
             <div className={styles.content}>
                 <div className={styles.header}>
                     <p className={styles.username}>aoc <span><Image src={verified} className={styles.verified} alt='Verified'/></span></p>
-                    <p className={styles.time_posted}>29m</p>
-                    <p className={styles.menu}>...</p>
+                    <span className={styles.header_data}>
+                        <p className={styles.time_posted}>29m</p>
+                        <p className={styles.menu}>...</p>
+                    </span>
                 </div>
                 <p className={styles.text}>If you're at home and don't have bar equipment but want to impress:
                 
