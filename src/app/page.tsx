@@ -26,8 +26,8 @@ export default function App() {
   return (
     <main className={styles.app}>
       <h1>@</h1>
-      {static_posts.map((post) => {
-        return <Post {...post}/>
+      {static_posts.map((post, i) => {
+        return <Post key={post.username + i}{...post}/>
       })}
     </main>
   )
