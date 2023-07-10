@@ -1,6 +1,9 @@
+@import 'src/app/styles/_variables.scss';
+
 .post {
     display: flex;
-    padding: 0 0.5rem;
+    padding: 0 0.5rem 1rem 0.5rem;
+    border-bottom: 1px solid $thin-border-color;
 }
 
 .image_container {
@@ -13,7 +16,7 @@
 .divider {
     width: 1px;
     height: 100%;
-    background-color: #505050;
+    background-color: $border-color;
 }
 
 .user_image {
