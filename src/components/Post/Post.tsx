@@ -25,7 +25,9 @@ const Post:FC = () => {
 
                 {/* TODO - Add nested text post */}
                 {/* TODO -  Add image in post */}
-                {/* TODO - Add Icons - Like Cooment Repost Send */}
+                {/* TODO - Add Icons - Like Comment Repost Send */}
+                {/* TODO - Add replies and likes*/}
+                {/* TODO - Add images for likes and replies */}
             </div>
         </div>
     )
