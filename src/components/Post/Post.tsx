@@ -19,13 +19,13 @@ const Post:FC = () => {
                         <p className={styles.menu}>...</p>
                     </span>
                 </div>
-                <p className={styles.text}>If you're at home and don't have bar equipment but want to impress:
-                
-                1. Make Palomas a staple!
-                
-                2. Lay out a G&T bar
-                
+                <p className={styles.text}>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed suscipit mi nec velit accumsan, at dapibus massa laoreet. Aenean id est magna. Nullam lobortis aliquam lobortis. Aliquam vulputate fermentum felis, non fringilla lectus laoreet sed. Proin eu tristique nibh, vitae iaculis enim. Suspendisse aliquet nisl ac nibh rhoncus, in tristique sem hendrerit. Sed gravida, tortor vel blandit consequat, lectus mi finibus nulla, vel finibus purus dui eu est. Mauris condimentum erat vel sem pellentesque consectetur. Sed cursus dictum feugiat. Aenean ut sem eget leo vulputate hendrerit ac in turpis. Donec dignissim enim sed tellus ullamcorper, et ullamcorper ipsum aliquam. Suspendisse potenti. Integer malesuada odio nec mi dapibus tristique. In aliquam enim eget nisi lacinia, vel euismod sapien tristique.
                 </p>
+
+                {/* TODO - Add nested text post */}
+                {/* TODO -  Add image in post */}
+                {/* TODO - Add Icons - Like Cooment Repost Send */}
             </div>
         </div>
     )
