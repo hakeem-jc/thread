@@ -4,6 +4,8 @@
     display: flex;
     padding: 0 0.5rem 1rem 0.5rem;
     border-bottom: 1px solid $thin-border-color;
+    width: 95%;
+    max-width: 768px;
 }
 
 .image_container {
@@ -38,15 +40,13 @@
     
     .header_data {
         display: flex;
-        width: 15%;
-        justify-content: space-between;
-        height: 1rem;
     }
 
     .time_posted {
         color: rgb(99, 99, 99);
         font-size: 0.6rem;
         line-height: 1rem;
+        margin-right: 0.5rem;
     }
 
     .menu {
