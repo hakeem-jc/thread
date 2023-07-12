@@ -1,6 +1,5 @@
 import { FC } from "react";
 import styles from './Post.module.scss';
-import avatar from '@/assets/aoc.jpeg';
 import verified from '@/assets/verified.svg';
 import Image from 'next/image';
 
