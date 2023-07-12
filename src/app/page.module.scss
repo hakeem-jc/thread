@@ -1,6 +1,23 @@
-.app {
+.app, .content {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.menu {
+    height: 5dvh;
+    height: 5vh;
+
+    ul {
+        display: flex;
+    }
+
+    li {
+        list-style-type: none;
+    }
+
+    .icon {
+        width: 48px;
+    }
 }

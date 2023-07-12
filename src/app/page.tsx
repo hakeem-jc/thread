@@ -1,5 +1,12 @@
 import styles from './page.module.scss';
 import Post from '@/components/Post/Post';
+import Image from 'next/image';
+import home from '@/assets/icons/home.svg';
+import search from '@/assets/icons/search.svg';
+import edit from '@/assets/icons/edit.svg';
+import favorite from '@/assets/icons/favorite.svg';
+import person from '@/assets/icons/person.svg';
+
 
 export default function App() {
   let static_posts = [
@@ -25,10 +32,32 @@ export default function App() {
   
   return (
     <main className={styles.app}>
-      <h1>@</h1>
-      {static_posts.map((post, i) => {
-        return <Post key={post.username + i}{...post}/>
-      })}
+      <section className={styles.content}>
+        <h1>@</h1>
+        {static_posts.map((post, i) => {
+          return <Post key={post.username + i}{...post}/>
+        })}
+      </section>
+
+      <nav className={styles.menu}>
+        <ul>
+          <li>
+            <Image src={home} className={styles.icon} alt='Home' />
+          </li>
+          <li>
+            <Image src={search} className={styles.icon} alt='Search' />
+          </li>
+          <li>
+            <Image src={edit} className={styles.icon} alt='Post' />
+          </li>
+          <li>
+            <Image src={favorite} className={styles.icon} alt='Likes' />
+          </li>
+          <li>
+            <Image src={person} className={styles.icon} alt='Profile' />
+          </li>
+        </ul>
+      </nav>
     </main>
   )
 }
